@@ -6,8 +6,8 @@ const inquirer = require('inquirer');
 const questions = [{
     /* Pass your questions in here */
     type: 'input',
-    message: 'What is your name?',
-    name: 'username',
+    message: 'Please describe your project.',
+    name: 'projectDescription',
   },
   {
     type: 'input',
@@ -26,17 +26,27 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'What is your Github URL?',
+    message: 'What is your Github username?',
     name: 'github',
 },];
 
 inquirer
   .prompt(questions)
-  .then()
-  .then();
+  .then((data) => {
+    const readMeStuff = createReadMe(data);
+    const filename = `readme.md`;
+    fs.writeFile(filename, readMeStuff, (err) =>
+      err ? console.log(err) : console.log('Success!')
+    );
+  });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
+
+function createReadMe(){
+    const readMeStuff =  `README MARK DOWN HERE`;
+    return readMeStuff;
+  };
 
 // TODO: Create a function to initialize app
 function init() {
