@@ -57,7 +57,7 @@ function createReadMe(questions){
     const readMeStuff =  `# readme-generator
 
 ## Description
-${data.questions.projectDescription}
+${questions.projectDescription}
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -76,7 +76,7 @@ Here is a quick video guide: *video link*
     
 ## Credits
     
-Created by [${data.question.githubUsername}](https://github.com/${data.question.githubUsername})
+Created by [${questions.githubUsername}](https://github.com/${questions.githubUsername})
     
 ## License
 License: *need license badge template literal here*
@@ -90,7 +90,7 @@ If your project has a lot of features, list them here.
 If you would like to contribute to this project, please fork the project as needed.
 ## Tests
 To run tests, run the following command:
-\`npm test\``
+\`npm test\``;
     return readMeStuff;
   };
 
