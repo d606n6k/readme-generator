@@ -1,5 +1,7 @@
 # readme-generator
 
+![ReadMe Command Line Image](./assets/images/screenshot.png)
+
 ## Description
 This is a simple command line application that will generate a readme.md file for your software project!
 ## Table of Contents
