@@ -2,7 +2,7 @@
 
 ## Description
 This is a simple command line application that will generate a readme.md file for your software project!
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
