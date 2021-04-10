@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -16,9 +17,9 @@ const questions = [
         name: 'projectDescription',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Enter a usage license:',
-        choices:["MIT", "BSD3", "none"], 
+        choices:["MIT", "BSD3", "Apache"], 
         name: 'license', 
     },
     {
@@ -65,7 +66,7 @@ ${questions.projectDescription}
 - [License](#license)
 
 ## Installation
-    
+   
 Run \`npm i\`.
     
 ## Usage
@@ -79,11 +80,12 @@ Here is a quick video guide: *video link*
 Created by [${questions.githubUsername}](https://github.com/${questions.githubUsername})
     
 ## License
-License: *need license badge template literal here*
+License: ${questions.license}
     
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+![license](https://img.shields.io/badge/license-${questions.license}-blue)
+
+
 ## Features
 If your project has a lot of features, list them here.
 ## How to Contribute

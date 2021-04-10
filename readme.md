@@ -1,7 +1,7 @@
 # readme-generator
 
 ## Description
-lejkbhgew
+styuff
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,7 +9,7 @@ lejkbhgew
 - [License](#license)
 
 ## Installation
-    
+   
 Run `npm i`.
     
 ## Usage
@@ -20,14 +20,15 @@ Here is a quick video guide: *video link*
     
 ## Credits
     
-Created by [;lwoieubh](https://github.com/;lwoieubh)
+Created by [emericas](https://github.com/emericas)
     
 ## License
-License: *need license badge template literal here*
+License: BSD3
     
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+![license](https://img.shields.io/badge/license-BSD3-blue)
+
+
 ## Features
 If your project has a lot of features, list them here.
 ## How to Contribute
