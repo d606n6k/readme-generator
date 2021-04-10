@@ -31,7 +31,7 @@ Created by [d606n6k](https://github.com/d606n6k)
 License: MIT
 
 ## Features
-If your project has a lot of features, list them here.
+- Easy to read command line prompts for easy Readme generation
 
 ## How to Contribute
 If you would like to contribute to this project, please fork the project as needed.
