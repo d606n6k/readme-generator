@@ -55,6 +55,7 @@ inquirer
 // then write the file
 function createReadMe(questions){
     const readMeStuff =  `# readme-generator
+![ReadMe Command Line Image](./assets/images/screenshot.png)
 
 ## Description
 ${questions.projectDescription}
