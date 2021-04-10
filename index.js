@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -65,9 +64,12 @@ ${questions.projectDescription}
 - [Credits](#credits)
 - [License](#license)
 
+## Badges
+![license](https://img.shields.io/badge/license-${questions.license}-blue)
+
 ## Installation
    
-Run \`npm i\`.
+Run \`npm i\` in the command line terminal.
     
 ## Usage
     
@@ -81,18 +83,20 @@ Created by [${questions.githubUsername}](https://github.com/${questions.githubUs
     
 ## License
 License: ${questions.license}
-    
-## Badges
-![license](https://img.shields.io/badge/license-${questions.license}-blue)
-
 
 ## Features
 If your project has a lot of features, list them here.
+
 ## How to Contribute
 If you would like to contribute to this project, please fork the project as needed.
+
+## Questions
+Have any questions for the author? Contact this author via [Email](mailto:${questions.email})\n
+Check out the author's [Github](mailto:${questions.githubUsername})
+
 ## Tests
 To run tests, run the following command:
-\`npm test\``;
+\`npm test\` in the terminal`;
     return readMeStuff;
   };
 

@@ -1,16 +1,19 @@
 # readme-generator
 
 ## Description
-styuff
+This is a simple readme generator
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
+## Badges
+![license](https://img.shields.io/badge/license-MIT-blue)
+
 ## Installation
    
-Run `npm i`.
+Run `npm i` in the command line terminal.
     
 ## Usage
     
@@ -23,16 +26,19 @@ Here is a quick video guide: *video link*
 Created by [emericas](https://github.com/emericas)
     
 ## License
-License: BSD3
-    
-## Badges
-![license](https://img.shields.io/badge/license-BSD3-blue)
-
+License: MIT
 
 ## Features
 If your project has a lot of features, list them here.
+
 ## How to Contribute
 If you would like to contribute to this project, please fork the project as needed.
+
+## Questions
+Have any questions for the author? Contact this author via [Email](mailto:aaronlucht@gmail.com)
+
+Check out the author's [Github](mailto:emericas)
+
 ## Tests
 To run tests, run the following command:
-`npm test`
+`npm test` in the terminal
