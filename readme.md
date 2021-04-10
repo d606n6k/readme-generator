@@ -1,10 +1,9 @@
-# readme-generator
-
+# readme-generator 
 ![ReadMe Command Line Image](./assets/images/screenshot.png)
 
 ## Description
 This is a simple command line application that will generate a readme.md file for your software project!
-## Table of Contents
+## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -39,7 +38,7 @@ If you would like to contribute to this project, please fork the project as need
 ## Questions
 Have any questions for the author? Contact this author via [Email](mailto:aaronlucht@gmail.com)
 
-Check out the author's [Github](mailto:d606n6k)
+Check out the author's [Github](https://github.com/d606n6k)
 
 ## Tests
 To run tests, run the following command:

@@ -34,9 +34,6 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 function init() {
 // prompt user
@@ -93,7 +90,7 @@ If you would like to contribute to this project, please fork the project as need
 
 ## Questions
 Have any questions for the author? Contact this author via [Email](mailto:${questions.email})\n
-Check out the author's [Github](mailto:${questions.githubUsername})
+Check out the author's [Github](https://github.com/${questions.githubUsername})
 
 ## Tests
 To run tests, run the following command:
