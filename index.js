@@ -75,7 +75,7 @@ Run \`npm i\` in the command line terminal.
     
 Run \`node index.js\` in the terminal to be prompted with questions for your readme file!
     
-Here is a quick video guide: *video link*
+Here is a quick video guide: https://youtu.be/ayl8uqiXHXU
     
 ## Credits
     

@@ -1,7 +1,7 @@
 # readme-generator
 
 ## Description
-This is a simple readme generator
+This is a simple command line application that will generate a readme.md file for your software project!
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,11 +19,11 @@ Run `npm i` in the command line terminal.
     
 Run `node index.js` in the terminal to be prompted with questions for your readme file!
     
-Here is a quick video guide: *video link*
+Here is a quick video guide: https://youtu.be/ayl8uqiXHXU
     
 ## Credits
     
-Created by [emericas](https://github.com/emericas)
+Created by [d606n6k](https://github.com/d606n6k)
     
 ## License
 License: MIT
@@ -37,7 +37,7 @@ If you would like to contribute to this project, please fork the project as need
 ## Questions
 Have any questions for the author? Contact this author via [Email](mailto:aaronlucht@gmail.com)
 
-Check out the author's [Github](mailto:emericas)
+Check out the author's [Github](mailto:d606n6k)
 
 ## Tests
 To run tests, run the following command:
